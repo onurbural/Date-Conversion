@@ -35,7 +35,6 @@ namespace DateConversion
                         }
                         else
                         {
-                            // Handle cases where OriginalDate is null if necessary
                             record.DiffDate = null;
                         }
                     }
@@ -60,7 +59,6 @@ namespace DateConversion
                 .AddSeconds(gen.Next(range))
                 .AddMilliseconds(gen.Next(range));
 
-            // Create a new DateRecord object
             DateRecord newRecord = new DateRecord
             {
                 OriginalDate = randomDate
@@ -78,17 +76,20 @@ namespace DateConversion
 
             // Statik farklı türlerde tarihlerin manuel verilmesi
             var staticDateTime = new DateTime(2024, 1, 1, 12, 45, 43);                              // -> 2024-01-01 12:45:43
-            var staticDateTimeOffset = new DateTimeOffset(2024, 1, 1, 12, 43, 34, timeZoneOffset);   // -> 2024-01-01 12:43:34 +00:00
+            var staticDateTimeOffset = new DateTimeOffset(2024, 1, 1, 12, 43, 34, timeZoneOffset);   // -> 2024-01-01 12:43:34 +00:00 (Buradaki UTC bilgisi timeZoneOffset değişkeninden alabiliriz)
             var staticTimeOnly = new TimeOnly(12, 43, 34);  // -> 12:43:34
             var staticDateOnly = new DateOnly(2024, 1, 1);  // -> 2024-01-01
 
             // DateTime ile v.t deki tarihten tarih çıkarma
+            //Yani DateTime - DateTime
             var dateTimeDifference = originalDate - staticDateTime;
 
             // DateTimeOffset ile v.t deki tarihten tarih çıkarma
+            //Yani DateTimeOffset - DateTime
             var dateTimeOffsetDifference = new DateTimeOffset(originalDate).DateTime - staticDateTimeOffset.DateTime;
 
             // TimeSpan hesaplama (DateTime ile TimeSpan arasında fark hesaplama)
+            //Birbirine benzer tarihi veri tipleri
             var timeSpanDifference = new TimeSpan(originalDate.Ticks - staticDateTime.Ticks);
 
             // TimeOnly hesaplama
