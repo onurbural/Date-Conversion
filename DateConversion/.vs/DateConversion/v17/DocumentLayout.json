@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B56ED451-B417-45AE-8183-64553FE75457}|DateConversion\\DateConversion.csproj|c:\\users\\pc_4176\\desktop\\date-conversion\\dateconversion\\dateconversion\\daterecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56ED451-B417-45AE-8183-64553FE75457}|DateConversion\\DateConversion.csproj|solutionrelative:dateconversion\\daterecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56ED451-B417-45AE-8183-64553FE75457}|DateConversion\\DateConversion.csproj|c:\\users\\pc_4176\\desktop\\date-conversion\\dateconversion\\dateconversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56ED451-B417-45AE-8183-64553FE75457}|DateConversion\\DateConversion.csproj|solutionrelative:dateconversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\Models\\DateRecordContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DateConversion\\Models\\DateRecordContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56ED451-B417-45AE-8183-64553FE75457}|DateConversion\\DateConversion.csproj|c:\\users\\pc_4176\\desktop\\date-conversion\\dateconversion\\dateconversion\\dtos\\daterecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56ED451-B417-45AE-8183-64553FE75457}|DateConversion\\DateConversion.csproj|solutionrelative:dateconversion\\dtos\\daterecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 935,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateRecordContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\Models\\DateRecordContext.cs",
+              "RelativeDocumentMoniker": "DateConversion\\Models\\DateRecordContext.cs",
+              "ToolTip": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\Models\\DateRecordContext.cs",
+              "RelativeToolTip": "DateConversion\\Models\\DateRecordContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T06:50:59.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DateRecordService.cs",
+              "DocumentMoniker": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\DateRecordService.cs",
+              "RelativeDocumentMoniker": "DateConversion\\DateRecordService.cs",
+              "ToolTip": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\DateRecordService.cs",
+              "RelativeToolTip": "DateConversion\\DateRecordService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvzMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T05:56:19.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DateRecordDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\DTOs\\DateRecordDto.cs",
+              "RelativeDocumentMoniker": "DateConversion\\DTOs\\DateRecordDto.cs",
+              "ToolTip": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\DTOs\\DateRecordDto.cs",
+              "RelativeToolTip": "DateConversion\\DTOs\\DateRecordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T05:56:19.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\Program.cs",
+              "RelativeDocumentMoniker": "DateConversion\\Program.cs",
+              "ToolTip": "C:\\Users\\PC_4176\\Desktop\\Date-Conversion\\DateConversion\\DateConversion\\Program.cs",
+              "RelativeToolTip": "DateConversion\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T05:56:19.634Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
